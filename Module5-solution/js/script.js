@@ -13,15 +13,15 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 var dc = {};
 
-var homeHtmlUrl = "/snippets/home-snippet.html";
+var homeHtmlUrl = "/Module5-solution/snippets/home-snippet.html";
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
-var categoriesTitleHtml = "/snippets/categories-title-snippet.html";
-var categoryHtml = "/snippets/category-snippet.html";
+var categoriesTitleHtml = "/Module5-solution/snippets/categories-title-snippet.html";
+var categoryHtml = "/Module5-solution/snippets/category-snippet.html";
 var menuItemsUrl =
   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
-var menuItemsTitleHtml = "/snippets/menu-items-title.html";
-var menuItemHtml = "/snippets/menu-item.html";
+var menuItemsTitleHtml = "/Module5-solution/snippets/menu-items-title.html";
+var menuItemHtml = "/Module5-solution/snippets/menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
